@@ -1,0 +1,19 @@
+ESTIMATE of time to complete lab: 5 hours
+
+		Start	Time	Lab
+Date	Time	Spent	Part Work Completed
+--------------------------------------------
+10/05   11:00	1:00	Read assignment, defined thread syscalls but no logic
+10/10	13:00   1:00	created logic for thread syscalls and tested against threads.c
+MET WITH ERIC
+10/24	12:00   2:00    created mutex lock(both definitions and logic) and tested against threads.c
+10/24   17:00	1:30    went over final adjustments....README....and lab submission
+
+DISCUSSION:
+
+In this lab the only challenging task to me was implementing thread_create. It was a little more challenging
+to determine which parts of the process table should be copied and which parts should be created new.
+After figuring out how to create a thread the rest of the lap almost represented wait() exit() entirely besides
+a few tweaks.
+mutex locks were a little tricky to get the atomic instructions setup, after analyzing spinlock() we were table
+to modify our lock atomically.
