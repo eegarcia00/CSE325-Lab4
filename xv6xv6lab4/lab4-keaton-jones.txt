@@ -3,11 +3,11 @@ ESTIMATE of time to complete lab: 5 hours
 		Start	Time	Lab
 Date	Time	Spent	Part Work Completed
 --------------------------------------------
-10/05   11:00	1:00	Read assignment, defined thread syscalls but no logic
-10/10	13:00   1:00	created logic for thread syscalls and tested against threads.c
-MET WITH ERIC
+10/05   11:00	1:00	Read assignment, defined thread syscalls but no logic.
+10/10	13:00   1:00	created logic for thread syscalls and tested against threads.c.
+10/11   17:30   2:00    went over lab with Eric and talked about what each of us were to do.
 10/24	12:00   2:00    created mutex lock(both definitions and logic) and tested against threads.c
-10/24   17:00	1:30    went over final adjustments....README....and lab submission
+10/24   17:00	1:30    went over final adjustments....README....and lab submission.
 
 DISCUSSION:
 
