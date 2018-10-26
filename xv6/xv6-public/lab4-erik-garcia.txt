@@ -1,0 +1,22 @@
+ESTIMATE of time to complete lab:  12 hours     
+ 
+        Start    Time     Lab
+Date    Time    Spent    Part    Work completed
+----    -----   ----     ----    ---------------------
+10/07   11:00    2       1&2     Went over threads and mutex lock
+10/11   17:30    1       1&2     Met with Keaton to discuss important points to Lab-4
+10/13   19:00    3        1      Completed functions thread_create and thread_join
+10/14   13:00    2.5     1&2     Partly finished thread_exit, went over mutex lock
+10/21   12:00    1.5      2      Finished mutex lock
+10/24   17:30    1       1&2     Met with Keaton, went over final results for Lab-4
+10/24   21:00    1.5      2      Attempted to figure out sleep/wake up issues in our mutex lock functions
+10/25   20:00    1       1&2     Completed rest of files for submission
+                 13:30 TOTAL time spent
+	A brief discussion of the major difficulties encountered
+
+	Some of the major difficulties I encountered were in thread_exit and mutex lock functions. 
+	In thread_exit I was unable to exit without deallocating the page table of the entire process. 
+ 	It wasn’t until I met up with Keaton again that he suggested to comment out the close all open 
+	files for loop as well as begin_op and end_op. In the mutex lock I found it difficult to acquire 
+	and release the lock properly. Wasn’t sure how to implement the sleep(1) suggestion in the lab pdf. 
+	In the end we ended solving all of our issues the code runs well. 
